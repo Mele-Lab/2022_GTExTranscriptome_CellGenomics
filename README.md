@@ -12,10 +12,10 @@ Rscript /scripts/
 
 Code to run models with clinical traits
 ```
-Rscript /scripts/
+Clinical_traits_models.sh
 ```
 
-Code to plot results with clinical traits
+Code to plot results with clinical traits using the zenodo tables as input
 ```
-Rscript /scripts/
+Clinical_traits_models_figures.sh
 ```
