@@ -44,7 +44,7 @@ done < $tissue_file
 Rscript scripts/05.Residuals_per_tissue.R #It may take long, we recommend a cluster environment with --constraint=highmem --cpus-per-task=48
 
 #Saving DEA results into the table available in zenodo
-scripts/06.differential_expression_analysis_tables.R
+Rscript scripts/06.differential_expression_analysis_tables.R
 
 #Splicing. The code runs DSA and hier part
 ls Tissues/ | while read line;
