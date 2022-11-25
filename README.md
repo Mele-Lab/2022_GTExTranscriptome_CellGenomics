@@ -2,12 +2,12 @@
 
 Code to run models with demographic traits
 ```
-Rscript /scripts/
+Demographic_traits_models.sh
 ```
 
-Code to plot results with demographic traits
+Code to plot results with demographic traits using the zenodo tables as input
 ```
-Rscript /scripts/
+Demographic_traits_models_figures.sh
 ```
 
 Code to run models with clinical traits
